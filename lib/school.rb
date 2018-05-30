@@ -25,7 +25,8 @@ def add_student(student_name, grade)
   end
 
   def sort
-roster.sort.to_h
+roster.each
+binding.pry
   end
 
 
