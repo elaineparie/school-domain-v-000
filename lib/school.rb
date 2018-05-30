@@ -21,7 +21,7 @@ def add_student(student_name, grade)
   end
 
   def grade(grade)
-    roster[grade].value
+    puts roster[grade]
   end
 
 
