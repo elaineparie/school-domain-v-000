@@ -25,9 +25,11 @@ def add_student(student_name, grade)
   end
 
   def sort
-roster.each do |grade, student|
-binding.pry
+    sorted_hash = {}
+roster.each do |grade, students|
+sorted_hash[grade] = students.sort
 end
+sorted_hash
   end
 
 
