@@ -25,8 +25,10 @@ def add_student(student_name, grade)
   end
 
   def sort
-roster.each
+roster.each do |grade, student|
 binding.pry
+end
+
   end
 
 
