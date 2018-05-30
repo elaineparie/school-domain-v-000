@@ -25,7 +25,7 @@ def add_student(student_name, grade)
   end
 
   def sort
-    roster[roster.sort]
+    roster.sort.to_h
   end
 
 
